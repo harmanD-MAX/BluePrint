@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Blueprint.Api/Blueprint.Api.csproj" />
+  <Project Path="Blueprint.Core/Blueprint.Core.csproj" />
+  <Project Path="Blueprint.Infrastructure/Blueprint.Infrastructure.csproj" />
+  <Project Path="Blueprint.Modules/Blueprint.Modules.csproj" />
+</Solution>

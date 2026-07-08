@@ -1,0 +1,19 @@
+# Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env.local
+
+# Backend
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+
+# Mac
+.DS_Store
