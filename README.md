@@ -2,13 +2,9 @@
 
 Blueprint is a full-stack web application that lets you point at any GitHub repository and instantly get a complete architectural breakdown. It clones your repo, parses the codebase, runs it through Google's Gemini AI, and presents you with interactive dependency graphs, technical debt audits, AI-generated documentation, and feature descriptions.
 
-## Preview
+## Architecture
 
-![Preview 1](./assets/preview/1.png)
-![Preview 2](./assets/preview/2.png)
-![Preview 3](./assets/preview/3.png)
-![Preview 4](./assets/preview/4.png)
-![Preview 5](./assets/preview/5.png)
+![Architecture](./assets/architecture/architecture.svg)
 
 ## Features
 

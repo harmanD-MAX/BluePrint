@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640" font-family="Helvetica, Arial, sans-serif" fill="none" stroke="#222" stroke-width="2">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10" stroke="#222" stroke-width="1.5" fill="none"/></marker></defs>
+  <rect width="1100" height="640" fill="#fff" stroke="none"/>
+  <g fill="#222" stroke="none" text-anchor="middle">
+    <text x="550" y="40" font-size="24">Blueprint Architecture</text>
+  </g>
+
+  <!-- boxes -->
+  <rect x="40" y="90" width="220" height="150" rx="6"/>
+  <rect x="420" y="90" width="260" height="220" rx="6"/>
+  <rect x="840" y="80" width="220" height="70" rx="6"/>
+  <rect x="840" y="175" width="220" height="70" rx="6"/>
+  <rect x="840" y="270" width="220" height="70" rx="6"/>
+  <rect x="840" y="365" width="220" height="70" rx="6"/>
+
+  <g fill="#222" stroke="none" text-anchor="middle" font-size="15">
+    <text x="150" y="125" font-size="18">Frontend</text>
+    <text x="150" y="155">React + Vite</text>
+    <text x="150" y="180">Redux, Cytoscape</text>
+    <text x="150" y="205">Monaco, Recharts</text>
+
+    <text x="550" y="125" font-size="18">Backend (.NET 10)</text>
+    <text x="550" y="160">Api: controllers, SignalR hub</text>
+    <text x="550" y="190">Hangfire background jobs</text>
+    <text x="550" y="220">Modules: clone, parse, AI</text>
+    <text x="550" y="250">Infrastructure: Astra DB client</text>
+    <text x="550" y="280">Core: entities, interfaces</text>
+
+    <text x="950" y="120">GitHub OAuth</text>
+    <text x="950" y="215">GitHub (clone)</text>
+    <text x="950" y="310">Google Gemini</text>
+    <text x="950" y="405">Astra DB</text>
+  </g>
+
+  <!-- connections -->
+  <line x1="260" y1="145" x2="418" y2="145" marker-end="url(#a)"/>
+  <line x1="420" y1="195" x2="262" y2="195" marker-end="url(#a)" stroke-dasharray="7 5"/>
+  <g fill="#222" stroke="none" text-anchor="middle" font-size="13">
+    <text x="340" y="137">REST + JWT</text>
+    <text x="340" y="215">SignalR progress</text>
+  </g>
+  <line x1="680" y1="115" x2="838" y2="115" marker-end="url(#a)"/>
+  <line x1="680" y1="190" x2="838" y2="210" marker-end="url(#a)"/>
+  <line x1="680" y1="245" x2="838" y2="305" marker-end="url(#a)"/>
+  <line x1="680" y1="295" x2="838" y2="400" marker-end="url(#a)"/>
+
+  <!-- pipeline -->
+  <g fill="#222" stroke="none" font-size="18"><text x="40" y="480">Analysis job flow</text></g>
+  <rect x="40"  y="510" width="150" height="60" rx="6"/>
+  <rect x="250" y="510" width="150" height="60" rx="6"/>
+  <rect x="460" y="510" width="150" height="60" rx="6"/>
+  <rect x="670" y="510" width="150" height="60" rx="6"/>
+  <rect x="880" y="510" width="180" height="60" rx="6"/>
+  <g fill="#222" stroke="none" text-anchor="middle" font-size="15">
+    <text x="115" y="545">Import URL</text>
+    <text x="325" y="545">Clone repo</text>
+    <text x="535" y="545">Parse code</text>
+    <text x="745" y="545">Gemini insights</text>
+    <text x="970" y="545">Save to Astra DB</text>
+  </g>
+  <line x1="190" y1="540" x2="248" y2="540" marker-end="url(#a)"/>
+  <line x1="400" y1="540" x2="458" y2="540" marker-end="url(#a)"/>
+  <line x1="610" y1="540" x2="668" y2="540" marker-end="url(#a)"/>
+  <line x1="820" y1="540" x2="878" y2="540" marker-end="url(#a)"/>
+</svg>
